@@ -179,7 +179,7 @@ def get_integer() -> int:
     return input_number
 
 
-def print_the_pair_numbers(number: int, list_pair_primes: list[tuple]):
+def print_the_pair_numbers(number: int, list_pair_primes: list[tuple]) -> None:
     """
     Print pairs of prime numbers alongside a specified number.
 
